@@ -9,9 +9,12 @@
 # IDE files
 *.idea
 
-#Test Files
-test/reports*
+# Test Files
+test/reports/*
 
-#files
+# Excluded files
 composer.phar
 *.phpunit.result.cache
+
+# Keep all .gitkeep files
+!*.gitkeep
